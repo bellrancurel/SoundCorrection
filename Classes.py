@@ -29,7 +29,7 @@ class Dossier():
         text='Frequency\t Magnitude max\t Phase max\n'
         for ind in range(0, 720):
             text+=str(big_freq[ind])+'\t'+str(max_mag[ind])+'\t'+str(max_phase[ind])+'\n'
-        Result=open(self.folder+'_results', 'w')
+        Result=open(self.folder+'_results.txt', 'w')
         Result.write(text)
         return (big_freq, max_mag, max_phase)
 
