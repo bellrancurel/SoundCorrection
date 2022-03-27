@@ -1,5 +1,6 @@
 # SoundCorrection
-Sound correction for home-made speakers.
+Sound correction for home-made speakers. Coded with iOS.
+
 Don't ask me too much, it follows this website instructions (french): https://www.petoindominique.fr/php/pc_plan_experience.php
 
 Sound mesures should be on a 'data' folder and run script.py will create a 'data_results.txt'.
